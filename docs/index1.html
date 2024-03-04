@@ -4,15 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ruiaithuba</title>
+    <style>
+    .image-outer-container {
+        width: 50%;
+        display:flex;
+
+        }   
+    .image-container { 
+        width: 100%;
+        margin: 10px;
+        border-color: cyan;
+       }
+        
+    .image-img {
+        width: 100%;    
+        height: auto;
+        border-radius: 30%;
+
+       }
+    </style>
 </head>
 <body>
-    <section>    
-      <img src="images/reza2.jpg" alt="Airpodsproの画像です">   
-      <img src="images/reza3.jpg" alt="ブックカバーの画像です">
-      <h1>ruiaithuba</h1>
-      <p>レザークラフトを趣味にしています。レザー生地の種類には沢山ありますが、私が気に入ってる
-        栃木レザーや姫路レザーで製作しています。今主に製作してるものとしてAirPodsProや
-        システム手帳、ブックカバーを楽しんで作っています。</p>
-    </section>    
+  <section>
+    <div class="image-outer-container">
+        <div class="image-container">
+            <img src="images/reza2.jpg" alt="Airpodsproの画像です" class="image-img">
+        </div>
+        <div class="image-container">
+            <img src="images/reza3.jpg" alt="ブックカバーの画像です" class="image-img">
+        </div>    
+    </div>
+
+    <h1>ruiaithuba</h1>
+    <p>レザークラフトを趣味にしています。レザー生地の種類には沢山ありますが、私が気に入ってる
+       栃木レザーや姫路レザーで製作しています。今主に製作してるものとしてAirPodsProや
+       システム手帳、ブックカバーを楽しんで作っています。</p>
+    </div>
+  </section>
 </body>
 </html>
